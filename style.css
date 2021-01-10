@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+    top: 0px; 
+    font-family:Century Gothic;
+}
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color:#55ACEE;
+    position: sticky;
+    color:white;
+}
+.leftnav{
+
+    width: 50%;
+    line-height: 60px;
+    float: left;
+    
+}
+
+.leftnav h4{
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+   
+    font-family:Century Gothic;
+}
+.rightnav{
+    width: 50%;
+    height: 60px;
+    float: right;
+    
+   
+
+    }
+    .rightnav ul{
+        font-weight:bold;
+        margin-left: 60%;
+    }
+    .rightnav ul li{
+       
+        font-family:Century Gothic;
+        display: inline-block;
+        list-style: none;
+        font-size: 15px;
+        color:#000d33;
+        font-weight: bold;
+        line-height: 100px;
+        margin-left: 100px;
+        text-transform: uppercase;
+        margin-top: -15px;
+    }
+
+    .rightnav ul li:hover{
+        color:white;
+    
+    }
+
+.sidenav ul li{
+    font-family:Century Gothic;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    
+   
+}
+
+.sidenav ul li:hover{
+    color:white;
+
+}
+.sidenav{
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+
+    }
+
+
+.bgimage{
+
+    background-color:lightblue;
+}
+.maintitle h4{
+    
+    color:blue;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sidenav{
+    height: 1000px;
+  width: 25%;
+  background-color:#66bbff;
+    
+}
+
+.text1{
+    
+    height:1000px
+    
+}
+.text2{
+    
+    height:100px
+
+}
+.contact{
+    padding:80px
+    height:300px;
+    background-color: #CCD6DD;
+    
+    
+
+}
+.about{
+    height:100px;
+    background-color:#E1E8ED;
+   
+
+}
+
+.about img{
+    align-content;
+}
+.company{
+    height:200px;
+    background-color:rgb(105, 100, 100);
+    color:white;
+
+}
+
+.entrance{
+    background-color:#80c1ff;
+    
+    }
+.course{
+
+    background-color:#99ceff;
+    
+}
+.course button{
+
+    color:white;
+    font-size: 20px;
+    border-radius: 7px;
+    border:none;
+    background-color: black;  
+    padding: 16px 20px;
+}
+.course button:hover{
+
+    color:black;
+    background-color: white;  
+
+}
+
+.entrance button{
+
+    color:rgb(14, 13, 13);
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    padding: 16px 20px;
+}
+.entrance button:hover{
+
+    color:white;
+    background-color: black;
+
+}
+
+.sidemain{
+    height: 1000px;
+  width: 25%;
+  background-color:#292F33;
+}
+.sidemain ul li{
+    font-family:Century Gothic;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 0px;
+    text-transform: uppercase;
+   
+}
+
+.sidemain ul li:hover{
+    color:#66757F;
+
+}
+.sidemain{
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+
+}
+
+
+.text11{
+    padding: 50px;
+    height:350px;
+    background-color: #66757F;
+    background-image: url(bg.jpg);
+    font-size: 30px;
+    
+    text-shadow: 0px 0px 50px rgb(246, 247, 247),0 0 50px #55ACEE;
+  
+}
+
+.text11 h1{
+    
+    font-family: sans-serif;
+}
+.btn{
+
+    color:black;
+    font-size: 10px;
+    border-radius: 5px;
+    border:none;
+    
+    padding: 5px 5px;
+}
+
+
+
+
+/*Tables */
+.tab {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab td, .tab th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.tab tr:nth-child(even){background-color:rgb(94, 174, 255);}
+.tab tr:nth-child(odd){background-color:rgb(117, 207, 252); color:black;}
+
+.tab tr:hover {background-color: rgb(212, 228, 206);}
+
+.tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#004466;
+    color:white;
+    
+}
+.tab{
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 70%;
+
+}
+
+.tab{
+
+    margin-left: 40px;
+}
+
+.logtab{
+    padding-top:100px;
+    
+    text-align: center;
+    background-color:#55ACEE;
+    color:white;
+    width: 25%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+/*view profile button*/
+#vbtn{
+    padding: 10px 40px;
+    
+    font-family:Century Gothic;
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+/* Button*/
+#btn{
+    padding: 10px 70px;
+    
+    font-family:Century Gothic;
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+#btn:hover {
+        background-color:white;
+        color: black;
+}
+
+/*input style*/
+#ipe{
+    padding: 5px 15px;
+    font-size: 15px;
+    font-family:Century Gothic;
+}
+
+.exam{
+
+    background-color:skyblue
+}
+
+
+
+
+
+/*button*/
+
+.dwbtn{
+    padding: 10px 40px;
+    
+    font-family:Century Gothic;
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#padd{
+
+    padding-top: 5px;
+}
+
+.course h1{
+
+margin-top: 25px;
+}
+
+.logtab table{
+
+    background-image: grey;
+}
+
+
+.newcolor{
+
+    background-color: #66b5ff;
+}
+
+.login{
+
+    margin-top:0px;
+}
+
+#dwbtn{
+
+    color:black;
+    font-size: 12px;
+    border-radius: 5px;
+    border:none;
+    background-color: #80ff80;
+    padding: 10px 10px;
+    font-weight: bold;
+
+}
+
+#dwbtn1{
+
+  
+    font-size: 12px;
+    border-radius: 5px;
+    border:none;
+    background-color: #ff5c33;
+    padding: 10px 10px;
+    font-weight: bold;
+
+}
+
+#nobg{
+background-color: white;
+}
+
+#nobgbn{
+    background-color: #55ACEE;
+    }
+
+    
